@@ -1,0 +1,21 @@
+.topic-container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 270px;
+
+    border: 1px solid white;
+    padding: 10px;
+}
+.topic-img{
+    height: 270px;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px dashed white;
+}
+.details{
+    color: white;
+}
+.details button a{
+    text-decoration: none;
+}

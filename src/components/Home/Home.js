@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Topic from '../Topic/Topic';
+import './Home.css'
 
 const Home = () => {
     const topics_raw = useLoaderData();
