@@ -1,9 +1,15 @@
 import React from 'react';
-import './Options.css'
-const Options = ({n, option }) => {
+import showResult from '../../utilities/showResult';
+import './Options.css';
+import { ToastContainer } from 'react-toastify';
+
+const Options = ({ n, option, correctAns }) => {
+
     return (
         <div className='option'>
-           {n}  .  {option}
+            <div onClick={() => showResult(option, correctAns)} >{n}  .  {option}</div>
+
+            <ToastContainer />
         </div>
     );
 };

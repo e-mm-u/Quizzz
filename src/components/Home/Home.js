@@ -6,7 +6,6 @@ import './Home.css'
 const Home = () => {
     const topics_raw = useLoaderData();
     const topics = topics_raw['data'];
-    // console.log(topics)
     return (
         <div className='topics-container'>
             {

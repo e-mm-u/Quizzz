@@ -8,7 +8,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons'
 library.add(faEye);
 
 const Question = ({ ques, n }) => {
-    const { id, question, options, correctAns } = ques;
+    const {question, options, correctAnswer} = ques;
     let i = 0;
     return (
         <div className="question">
@@ -23,7 +23,7 @@ const Question = ({ ques, n }) => {
                         i++;
                         return (
                             <div>
-                                <Options n={i} option={option}></Options>
+                                <Options n={i} option={option} correctAns={correctAnswer} key={i}></Options>
                             </div>
                         )
                     })
