@@ -13,7 +13,11 @@ function App() {
                     loader : ()=> fetch('https://openapi.programming-hero.com/api/quiz'),
                     element : <Home></Home>
                 }
-            ]
+            ] 
+        },
+        {
+            path : '*',
+            element : <div> 404 </div>
         }
     ])
     return (
