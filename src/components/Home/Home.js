@@ -1,11 +1,16 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Topic from '../Topic/Topic';
 
 const Home = () => {
     const topics_raw = useLoaderData();
+    const topics = topics_raw['data'];
+    // console.log(topics)
     return (
-        <div>
-            
+        <div className='topics-container'>
+            {
+                topics.map(topic => <Topic topic={topic} key={topic.id}></Topic>)
+            }
         </div>
     );
 };
