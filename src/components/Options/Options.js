@@ -1,19 +1,9 @@
 import React from 'react';
-
-const Options = ({ options }) => {
+import './Options.css'
+const Options = ({ option }) => {
     return (
-        <div>
-            {
-                options.map(option => {
-                    return (
-                        <div>
-                            {option}
-                        </div>
-
-                    )
-                })
-            }
-
+        <div className='option'>
+            {option}
         </div>
     );
 };

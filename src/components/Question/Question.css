@@ -1,0 +1,13 @@
+.question{
+    text-align : left;
+    border: 1px solid rgba(128, 128, 128, 0.144);
+    padding: 10px;
+}
+.question p{
+    font-size: larger;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
