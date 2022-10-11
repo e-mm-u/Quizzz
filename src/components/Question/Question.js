@@ -4,6 +4,9 @@ import './Question.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEye } from '@fortawesome/free-solid-svg-icons'
+import showAnswer from '../../utilities/showAnswer';
+import { ToastContainer } from 'react-toastify';
+
 
 library.add(faEye);
 
@@ -14,8 +17,8 @@ const Question = ({ ques, n }) => {
         <div className="question">
             <div className='ques-section'>
                 <div><p> Quiz {n} : {question.slice(3, -4)}</p></div>
-                <div><FontAwesomeIcon icon="fa-solid fa-eye"/></div>
-    
+                <div onClick={()=> showAnswer(correctAnswer)}><FontAwesomeIcon icon="fa-solid fa-eye"/></div>
+                <ToastContainer />
             </div>
             <div className="options">
                 {
