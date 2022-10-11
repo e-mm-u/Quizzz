@@ -8,14 +8,15 @@ const Quizs = () => {
     const questions = quizs['questions'];
     console.log(quizs);
     console.log(questions);
-
+    let i=0;
     return (
         <div className="questions-details-container">
             <h2 className='quiz-name'>{quizs.name} Quizzz</h2>
             <div className="questions-container">
                 {
                     questions.map(question => {
-                        return <Question ques={question} key={question.id}></Question>
+                        i++;
+                        return <Question n={i} ques={question} key={question.id}></Question>
                     })
                 }
             </div>

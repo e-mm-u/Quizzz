@@ -1,9 +1,9 @@
 import React from 'react';
 import './Options.css'
-const Options = ({ option }) => {
+const Options = ({n, option }) => {
     return (
         <div className='option'>
-            {option}
+           {n}  .  {option}
         </div>
     );
 };

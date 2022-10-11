@@ -2,19 +2,21 @@ import React from 'react';
 import Options from '../Options/Options';
 import './Question.css'
 
-const Question = ({ ques }) => {
+const Question = ({ ques,n }) => {
     const { id, question, options, correctAns } = ques;
+    let i=0;
     return (
         <div className="question">
             <div >
-               <p> {question.slice(3, -4)}</p>
+               <p> Quiz {n} : {question.slice(3, -4)}</p>
             </div>
             <div className="options">
                 {
                     options.map(option => {
+                        i++;
                         return (
                             <div>
-                                <Options option={option}></Options>
+                                <Options n={i} option={option}></Options>
                             </div>
                         )
                     })

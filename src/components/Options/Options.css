@@ -2,3 +2,6 @@
     padding: 10px;
     border: 1px solid rgba(128, 128, 128, 0.205);
 }
+.option:hover{
+    background-color: #044A42;
+}
