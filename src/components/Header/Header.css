@@ -4,9 +4,15 @@ nav{
     align-items: center;
     
     background-color: #044A42;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
 
     padding: 10px;
     font-weight: 900;
+
+    position: sticky;
+    top: 0;
+    
 }
 nav a{
     text-decoration: none;

@@ -1,7 +1,16 @@
+.quiz-name{
+    /* position: relative; */
+    position: sticky;
+    top : 60px;
+    padding: 10px;
+    background-color: #044A42;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px ;
+}
 .questions-details-container{
     padding: 20px;
     color: white;
-    text-align: center;
 }
 .questions-container{
     display: flex;

@@ -13,14 +13,15 @@ function App() {
                     path : '/',
                     loader : async()=> {return fetch('https://openapi.programming-hero.com/api/quiz')},
                     element : <Home></Home>
+                },
+                {
+                    path: `/quiz/:id`,
+                    loader : async({params})=> {return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)},
+                    element : <Quizs></Quizs>
                 }
             ] 
         },
-        {
-            path: `/quiz/:id`,
-            loader : async({params})=> {return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)},
-            element : <Quizs></Quizs>
-        },
+        
         {
             path : '*',
             element : <div> 404 </div>

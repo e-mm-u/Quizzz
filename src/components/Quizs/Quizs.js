@@ -11,7 +11,7 @@ const Quizs = () => {
 
     return (
         <div className="questions-details-container">
-            <h2>{quizs.name} Quiz details </h2>
+            <h2 className='quiz-name'>{quizs.name} Quizzz</h2>
             <div className="questions-container">
                 {
                     questions.map(question => {
