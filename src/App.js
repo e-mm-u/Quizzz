@@ -31,6 +31,10 @@ function App() {
                     path : '/chart',
                     loader : async()=> {return fetch('https://openapi.programming-hero.com/api/quiz')},
                     element : <Chart></Chart>
+                },
+                {
+                    path : '*',
+                    element :  <Error404></Error404>
                 }
             ] 
         },
