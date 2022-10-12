@@ -1,0 +1,25 @@
+.blog{
+    color: #DFF6FF;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}
+.blog h1{
+    color: #06283D;
+}
+.blog-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+.blog-card{
+    background-color: #06283d48;
+    border: 1px solid #06283d48;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
