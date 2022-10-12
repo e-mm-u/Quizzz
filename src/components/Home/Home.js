@@ -8,8 +8,10 @@ const Home = () => {
     const topics_raw = useLoaderData();
     const topics = topics_raw['data'];
     return (
-        <div>
+        <div className='home'>
             <Promo></Promo>
+            <h1> Choose a topic </h1>
+            <hr />
             <div className='topics-container'>
                 {
                     topics.map(topic => <Topic topic={topic} key={topic.id}></Topic>)

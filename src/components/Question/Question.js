@@ -3,7 +3,7 @@ import Options from '../Options/Options';
 import './Question.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEye } from '@fortawesome/free-solid-svg-icons'
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 import showAnswer from '../../utilities/showAnswer';
 import { ToastContainer } from 'react-toastify';
 

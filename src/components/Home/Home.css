@@ -1,7 +1,16 @@
+.home h1{
+    text-align: center;
+    color: #DFF6FF;
+}
+.home hr{
+    border: 1px solid #DFF6FF;
+    width: 50%;
+}
 .topics-container{
-    margin: 100px 50px;
+    margin: 60px 30px 0 30px;
+    padding: 10px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;

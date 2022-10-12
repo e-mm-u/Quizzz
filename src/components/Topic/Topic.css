@@ -1,21 +1,36 @@
 .topic-container{
+    background-color: #06283d48;
+    color: #DFF6FF;
     display: flex;
     flex-direction: column;
-    
     width: 270px;
-
-    border: 1px solid white;
-    padding: 10px;
+    border: 1px solid #06283d48;
+    border-radius: 30px;
+    padding: 20px;
 }
 .topic-img{
     height: 270px;
     width: 100%;
     border-radius: 50%;
-    border: 1px dashed white;
+    border: 1px dashed #dff6ff41;
 }
-.details{
-    color: white;
+
+.details button{
+    border-style: none;
+    background-color: #DFF6FF;
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 800;
+}
+.details button:hover{
+    background-color: #06283D;
 }
 .details button a{
     text-decoration: none;
+    color: #06283D;
+}
+.details button a:hover{
+    color: #DFF6FF;
 }

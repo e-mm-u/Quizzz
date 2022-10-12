@@ -3,7 +3,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     
-    background-color: #044A42;
+    background-color: #06283D;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
 
@@ -16,10 +16,10 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: #3A9188;
+    color: #47B5FF;
 }
 nav a:hover{
-    color: #B8E1DD;
+    color: #DFF6FF;
 }
 nav .logo{
     font-size:xx-large;

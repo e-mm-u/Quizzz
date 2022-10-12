@@ -3,14 +3,15 @@
     position: sticky;
     top : 60px;
     padding: 10px;
-    background-color: #044A42;
+    background-color: #06283D;
+    color: #47B5FF;
     text-align: center;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px ;
 }
 .questions-details-container{
     padding: 0 50px 50px 50px;
-    color: white;
+    color: #DFF6FF;
 }
 .questions-container{
     display: flex;
