@@ -37,11 +37,6 @@ function App() {
                     element :  <Error404></Error404>
                 }
             ] 
-        },
-        
-        {
-            path : '*',
-            element :  <Error404></Error404>
         }
     ])
     return (
