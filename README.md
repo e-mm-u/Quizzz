@@ -1,12 +1,12 @@
 ### This is a Javascript project, quiz-web-application - 'Quizz'
-> You can play quiz of available topics in this web application
-Technology/Tools used : 
-> React is used as frontend library
-> React-router is used for routing purpose
-> Simple Rechart is used to show api data
-> Only vanilla CSS - No CSS library.
-Live site link : 
-> https://jovial-babka-cdb2a3.netlify.app
+* You can play quiz of available topics in this web application
+#### Technology/Tools used : 
+* React is used as frontend library
+* React-router is used for routing purpose
+* Simple Rechart is used to show api data
+* Only vanilla CSS - No CSS library.
+#### Live site link : 
+* ### https://jovial-babka-cdb2a3.netlify.app
 
 
 ## Getting Started with Create React App
