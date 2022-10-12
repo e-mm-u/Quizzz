@@ -1,0 +1,14 @@
+.chart{
+    background-color: #256D85;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+
+}
+.chart h2{
+    margin: auto;
+    color: #06283D;
+}
