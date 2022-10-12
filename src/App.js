@@ -3,6 +3,8 @@ import './App.css';
 import Home from './components/Home/Home';
 import Main from './Layouts/Main';
 import Quizs from './components/Quizs/Quizs'
+import Error404 from './components/Error404/Error404';
+
 function App() {
     const router = createBrowserRouter([
         {
@@ -24,7 +26,7 @@ function App() {
         
         {
             path : '*',
-            element : <div> 404 </div>
+            element :  <Error404></Error404>
         }
     ])
     return (

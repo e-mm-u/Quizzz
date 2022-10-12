@@ -1,0 +1,12 @@
+.error{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../images/404.webp');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: 50% 50%;
+}
+.error img{
+    height: 90%;
+    width: 80%;
+}
